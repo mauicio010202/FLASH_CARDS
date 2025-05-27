@@ -4,7 +4,7 @@ project(FlashcardsApp)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt5 REQUIRED COMPONENTS Core Widgets WebEngineWidgets)
+find_package(Qt5 REQUIRED COMPONENTS Core Widgets WebEngineWidgets Sql)
 
 # Add your source files
 add_executable(${PROJECT_NAME}
@@ -20,6 +20,7 @@ target_link_libraries(${PROJECT_NAME}
     Qt5::Core
     Qt5::Widgets
     Qt5::WebEngineWidgets
+    Qt5::Sql
     "-Wl,-rpath,/usr/lib/x86_64-linux-gnu"
 )
 

@@ -19,6 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_PRINTSUPPORT_LIB"
   "QT_QML_LIB"
   "QT_QUICK_LIB"
+  "QT_SQL_LIB"
   "QT_WEBCHANNEL_LIB"
   "QT_WEBENGINECORE_LIB"
   "QT_WEBENGINEWIDGETS_LIB"
@@ -41,6 +42,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/x86_64-linux-gnu/qt5/QtWebChannel"
   "/usr/include/x86_64-linux-gnu/qt5/QtPositioning"
   "/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"
+  "/usr/include/x86_64-linux-gnu/qt5/QtSql"
   )
 
 # Targets to which this target links.

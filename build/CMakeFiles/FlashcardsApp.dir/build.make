@@ -95,6 +95,7 @@ FlashcardsApp: CMakeFiles/FlashcardsApp.dir/main.cpp.o
 FlashcardsApp: CMakeFiles/FlashcardsApp.dir/src/Card.cpp.o
 FlashcardsApp: CMakeFiles/FlashcardsApp.dir/build.make
 FlashcardsApp: /usr/lib/x86_64-linux-gnu/libQt5WebEngineWidgets.so.5.12.8
+FlashcardsApp: /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.12.8
 FlashcardsApp: /usr/lib/x86_64-linux-gnu/libQt5WebEngineCore.so.5.12.8
 FlashcardsApp: /usr/lib/x86_64-linux-gnu/libQt5WebChannel.so.5.12.8
 FlashcardsApp: /usr/lib/x86_64-linux-gnu/libQt5Positioning.so.5.12.8

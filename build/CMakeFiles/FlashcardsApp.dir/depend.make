@@ -3,6 +3,9 @@
 
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: ../main.cpp
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: ../src/card.hpp
+CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFile
+CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileInfo
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
@@ -35,6 +38,7 @@ CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCor
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
+CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -134,6 +138,14 @@ CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNet
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h
+CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlDatabase
+CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlError
+CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlQuery
+CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h
+CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlerror.h
+CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquery.h
+CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsql-config.h
+CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore/qtwebenginecore-config.h
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore/qtwebenginecoreglobal.h
 CMakeFiles/FlashcardsApp.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore/qwebenginecallback.h

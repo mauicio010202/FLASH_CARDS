@@ -4,6 +4,9 @@
 CMakeFiles/FlashcardsApp.dir/main.cpp.o
  /mnt/c/dev/flash/src/main.cpp
  /mnt/c/dev/flash/src/src/card.hpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QFile
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileInfo
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
@@ -36,6 +39,7 @@ CMakeFiles/FlashcardsApp.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -135,6 +139,14 @@ CMakeFiles/FlashcardsApp.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlDatabase
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlError
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlQuery
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlerror.h
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquery.h
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsql-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore/qtwebenginecore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore/qtwebenginecoreglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore/qwebenginecallback.h
