@@ -1,3 +1,4 @@
-/mnt/c/dev/flash/src/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/dev/flash/src/build/CMakeFiles/edit_cache.dir
 /mnt/c/dev/flash/src/build/CMakeFiles/FlashcardsApp.dir
+/mnt/c/dev/flash/src/build/CMakeFiles/edit_cache.dir
+/mnt/c/dev/flash/src/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/dev/flash/src/build/CMakeFiles/FlashcardsApp_autogen.dir

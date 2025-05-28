@@ -4,14 +4,26 @@ project(FlashcardsApp)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
+
 find_package(Qt5 REQUIRED COMPONENTS Core Widgets WebEngineWidgets Sql)
 
-# Add your source files
-add_executable(${PROJECT_NAME}
+set(SOURCES
     main.cpp
     src/Card.cpp
-    src/Card.hpp
+    src/Database.cpp
+    src/webviewwindow.cpp
 )
+
+set(HEADERS
+    src/Card.hpp
+    src/Database.hpp
+    src/webviewwindow.hpp
+)
+
+add_executable(FlashcardsApp ${SOURCES} ${HEADERS})
 
 target_include_directories(${PROJECT_NAME} PRIVATE src)
 

@@ -1,52 +1,22 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/dev/flash/src/main.cpp" "/mnt/c/dev/flash/src/build/CMakeFiles/FlashcardsApp.dir/main.cpp.o"
-  "/mnt/c/dev/flash/src/src/Card.cpp" "/mnt/c/dev/flash/src/build/CMakeFiles/FlashcardsApp.dir/src/Card.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "QT_CORE_LIB"
-  "QT_GUI_LIB"
-  "QT_NETWORK_LIB"
-  "QT_NO_DEBUG"
-  "QT_POSITIONING_LIB"
-  "QT_PRINTSUPPORT_LIB"
-  "QT_QML_LIB"
-  "QT_QUICK_LIB"
-  "QT_SQL_LIB"
-  "QT_WEBCHANNEL_LIB"
-  "QT_WEBENGINECORE_LIB"
-  "QT_WEBENGINEWIDGETS_LIB"
-  "QT_WIDGETS_LIB"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../src"
-  "/usr/include/x86_64-linux-gnu/qt5"
-  "/usr/include/x86_64-linux-gnu/qt5/QtCore"
-  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
-  "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
-  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
-  "/usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets"
-  "/usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore"
-  "/usr/include/x86_64-linux-gnu/qt5/QtQuick"
-  "/usr/include/x86_64-linux-gnu/qt5/QtQml"
-  "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
-  "/usr/include/x86_64-linux-gnu/qt5/QtWebChannel"
-  "/usr/include/x86_64-linux-gnu/qt5/QtPositioning"
-  "/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"
-  "/usr/include/x86_64-linux-gnu/qt5/QtSql"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/c/dev/flash/src/build/FlashcardsApp_autogen/mocs_compilation.cpp" "CMakeFiles/FlashcardsApp.dir/FlashcardsApp_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/FlashcardsApp.dir/FlashcardsApp_autogen/mocs_compilation.cpp.o.d"
+  "/mnt/c/dev/flash/src/main.cpp" "CMakeFiles/FlashcardsApp.dir/main.cpp.o" "gcc" "CMakeFiles/FlashcardsApp.dir/main.cpp.o.d"
+  "/mnt/c/dev/flash/src/src/Card.cpp" "CMakeFiles/FlashcardsApp.dir/src/Card.cpp.o" "gcc" "CMakeFiles/FlashcardsApp.dir/src/Card.cpp.o.d"
+  "/mnt/c/dev/flash/src/src/Database.cpp" "CMakeFiles/FlashcardsApp.dir/src/Database.cpp.o" "gcc" "CMakeFiles/FlashcardsApp.dir/src/Database.cpp.o.d"
+  "/mnt/c/dev/flash/src/src/webviewwindow.cpp" "CMakeFiles/FlashcardsApp.dir/src/webviewwindow.cpp.o" "gcc" "CMakeFiles/FlashcardsApp.dir/src/webviewwindow.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
