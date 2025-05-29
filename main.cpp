@@ -4,6 +4,8 @@
 #include <iostream>
 
 #include <QApplication>
+#include <QFile>
+#include <QFileInfo>
 
 
 int main(int argc, char *argv[]){
@@ -22,28 +24,25 @@ int main(int argc, char *argv[]){
     std::string d_back_image_path = "";
     std::string d_code = "";
 
-    // std::cout << "Enter the front: " << std::endl;
-    // std::cin >> d_front;
-    // std::cout << "Enter the back: " << std::endl;
-    // std::cin >> d_back;
-    // std::cout << "Enter the front image: " << std::endl;
-    // std::cin >> d_front_image_path;
-    // std::cout << "Enter the back image: " << std::endl;
-    // std::cin >> d_back_image_path;
-    // std::cout << "Enter the code: " << std::endl;
-    // std::cin >> d_code;
+    // Card dummy(d_front, d_back, d_front_image_path, d_back_image_path, d_code);
+    // if (!db.addCard(dummy)) {
+    //     qDebug() << "Failed to add card";
+    // }
 
-    Card dummy(d_front, d_back, d_front_image_path, d_back_image_path, d_code);
-    if (!db.addCard(dummy)) {
-        qDebug() << "Failed to add card";
-    }
-
+    QString temp;
     auto allCards = db.getAllCards();
     for (const auto &card : allCards) {
         qDebug() << "Q:" << QString::fromStdString(card.getFront()) << "A:" << QString::fromStdString(card.getBack());
+        temp = QString::fromStdString(card.getFront());
     }
 
-    window.loadHtml("../assets/body/index.html");
+    
+    QString htmlTemplate;
+    window.readHtml(htmlTemplate);
+   
+    QString finalHtml = htmlTemplate.replace("%/USERNAME%", temp);
+
+    window.loadQString(finalHtml);
     window.show();
 
     return app.exec();
